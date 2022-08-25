@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
 *{
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
@@ -43,8 +44,8 @@ body{
     color: #F9283C;
     margin: 0;
     font-size: 60px;
-    
 }
+
 .style-h1{
     color: #ad2093;
     margin: 0;
@@ -53,10 +54,8 @@ body{
 }
 
 .area{
-    background: #4e54c8;  
-    background: -webkit-linear-gradient(to left, #c987f2, #8929bc);  
-    background: rgb(178,112,219);
-    background: linear-gradient(90deg, #831770 0%, #310244 13%, #310244 45%, #310244 87%, #831770 100%);   
+    background: -webkit-linear-gradient(to left, #831770, #310244);  
+    background: linear-gradient(90deg, #831770 0%, #310244 18%, #310244 45%, #310244 82%, #831770 100%);   
     width: 100%;
     height:100vh;
     z-index: -2;
@@ -72,6 +71,20 @@ body{
     z-index: -1;
 }
 
+@media screen and (max-width: 700px) {
+    
+    .context h1{
+        font-size: 45px;
+    }
+    .style-h1{
+        font-size: 40px;
+    }
+    .area{
+        background: -webkit-linear-gradient(to left, #831770, #310244);  
+        background: linear-gradient(90deg, #831770 0%, #310244 10%, #310244 45%, #310244 90%, #831770 100%);   
+    }
+
+}
 .circles li{
     position: absolute;
     display: block;
