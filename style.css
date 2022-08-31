@@ -20,13 +20,14 @@ body{
 .btn{
     margin: 25px auto;
     padding: 15px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.129);
     color: black;
     width: 8cm;
     border-radius: 15px;
     cursor: pointer;
     z-index: 99999;
     font-size: 25px;
+    box-shadow: 0 0 10px #F9283C;
 
 }
 .btn a{
@@ -53,18 +54,12 @@ body{
     font-weight: bold;
 }
 
-
-
-
-
-
-
 .area{
     background: -webkit-linear-gradient(to left, #831770, #310244);  
     background: linear-gradient(90deg, #831770 0%, #310244 18%, #310244 45%, #310244 82%, #831770 100%);   
     width: 100%;
     height:100vh;
-    z-index: 99992;
+    z-index: -2;
 }
 
 .circles{
@@ -78,7 +73,16 @@ body{
 }
 img {
     width: 30%;
+    filter: drop-shadow(0px 0px 2px  #F9283C);
+
 }
+
+@media screen and (max-width: 1000px) {
+    img {
+        width: 70%;
+    }
+}
+
 @media screen and (max-width: 700px) {
     
     .context h1{
@@ -95,6 +99,16 @@ img {
         width: 90%;
     }
 }
+@media screen and (max-width: 400px) {
+    .btn{
+        margin: 20px auto;
+        padding: 10px;
+        font-size: 20px;
+        width: 6cm;
+    }
+    
+}
+
 .circles li{
     position: absolute;
     display: block;
