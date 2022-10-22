@@ -1,18 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" media="all" href="style.css" />
-        <title>Experimental Style</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+                crossorigin="anonymous">
+        <title>Experimental Style</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+                integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
         <div class="context">
-                <img src="/exps.png" alt="">
-                <div class="btn"><a href="https://instagram.com/experimental.style_craftbeer?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i> Instagram</a></div>
+                <img src="./logos/exps.png" alt="">
+                <div class="d-flex flex-column">
+                        <div class="botoncito b-radius"><a
+                                        href="https://instagram.com/experimental.style_craftbeer?igshid=YmMyMTA2M2Y="><i
+                                                class="fa-brands fa-instagram"></i> Instagram</a></div>
+                        <div class=" b-radius">
+                                <button class="botoncito b-radius primario dropdown" type="button"
+                                        id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Bogota
+                                </button>
+                                <ul class="dropdown-menu primario" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item " href="./sitios/barbaros.html">Barbaros brewing
+                                                        co</a></li>
+                                        <li><a class="dropdown-item " href="./sitios/quintaCerveceria.html">Quinta
+                                                        cerveceria</a></li>
+                                        <li><a class="dropdown-item " href="./sitios/sindicato.html">El
+                                                        sindicato_beer</a></li>
+                                        <li><a class="dropdown-item "
+                                                        href="./sitios/tesoro_sandwich.html">Tesoro_sandwich</a></li>
+                                        <li><a class="dropdown-item " href="./sitios/bababuy.html">Bababuy_hostel</a>
+                                        </li>
+                                        <li><a class="dropdown-item " href="./sitios/ama_polabeer.html">Ama_polabeer</a>
+                                        </li>
+                                </ul>
+                        </div>
+                        <div class=" b-radius">
+                                <button class="botoncito b-radius primario dropdown" type="button"
+                                        id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Guatavita
+                                </button>
+                                <ul class="dropdown-menu primario" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item " href="./sitios/laEmabajada.html">La embajada
+                                                        criolla col</a></li>
+                                        <li><a class="dropdown-item " href="./sitios/guatamonaco.html">guatamonaco</a></li>
+                                        <li><a class="dropdown-item "
+                                                        href="./sitios/magoGourtmet.html">elmago.gourmet</a></li>
+                                        <li><a class="dropdown-item "
+                                                        href="./sitios/guacheOficial.html">elguache_oficial</a></li>
+                                        <li><a class="dropdown-item "
+                                                        href="./sitios/sanducheriaLaSuegra.html">sanducheria la
+                                                        suegra</a></li>
+                                        <li><a class="dropdown-item "
+                                                        href="./sitios/misticohostel.html">misticohostel</a></li>
+                                        <li><a class="dropdown-item "
+                                                        href="./sitios/ajnacannaclub.html">ajnacannaclub</a></li>
+                                </ul>
+                        </div>
+                </div>
+
+
+
         </div>
-        <div class="area" >
+        <div class="area">
                 <ul class="circles">
                         <li></li>
                         <li></li>
@@ -31,7 +88,11 @@
                         <li></li>
                         <li></li>
                 </ul>
-        </div >
-</body>
-</html>
+        </div>
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
