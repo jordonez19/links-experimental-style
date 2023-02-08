@@ -305,3 +305,48 @@ img {
 .botoncito.b-radius {
     border-radius: 15px;
 }
+
+/* whatsapp */
+
+  #whatsapp-btn img:hover {
+    background-color: #128C7E;
+    cursor: pointer;
+  }
+  
+  #whatsapp-btn img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #25d366;
+    transition: background-color 0.5s ease;
+    border: none;
+  }
+  
+  #whatsapp-btn:after {
+    content: "Podemos ayudarte";
+    position: absolute;
+    bottom: 24px;
+    right: 75px;
+    background-color: #128C7E;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  #whatsapp-btn:hover:after {
+    display: block;
+  }
+  
